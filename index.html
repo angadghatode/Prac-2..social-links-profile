@@ -3,28 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Social links profile</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; margin-top: 100px; color: white;}
     .attribution a { color: hsl(228, 45%, 44%); }
+
+    body {
+      background-color: hsl(0, 0%, 8%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+
+    .box{
+      color: white;
+      border: solid;
+      border-color: red;
+      width: 200px;
+    }
+
+    .email,
+    .instagram,
+    .linkedin,
+    .github{
+      width: 100%;
+    }
+
+
+
+
+
+
+
   </style>
 </head>
 <body>
+  <div class="box">
+    <img src="assets/images/professionalprofilepic.png" alt="profilepic">
+    <h1>Angad ghatode</h1>
+    <p>Perth, Western Australia</p>
+    <p>Front-end Developer and Artist</p>
+    <button class="github">GitHub</button> 
+    <button class="linkedin">LinkedIn</button>
+    <button class="email">Email</button>
+    <button class="instagram">Instagram</button>
 
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
 
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
